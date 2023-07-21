@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    background-image: linear-gradient(to right, #333399 0%, #FF00CC 100%);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 40px;
+}
+
+header div, header ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: #333399;
+}
+
+header .barte:hover {
+    color: #FF00CC;
+}
+
+main {
+    background-image: url(../assets/images/Fondo-Barté.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333399;
+    border-radius: 32px;
+    width: auto;
+    height: auto;
+    margin: 8% 0 8% 0;
+}
+
+form label, form input, form h3, form p {
+    display: block;
+    font-size: 24px;
+    width: 100%;
+    height: auto;
+}
+
+form h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+form a {
+    text-decoration: none;
+    color: white;
+}
+
+form a:hover {
+    color: #FF00CC;
+}
+
+form .material-symbols-outlined {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 2%;
+    font-size: 56px;
+    width: 1000px;
+    height: auto;
+}
+
+form input {
+    width: 800px;
+    height: 80px;
+    margin: 4% 0 4% 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 16px;
+    border: none;
+}
+
+#boton {
+    background-image: linear-gradient(to right, #AB15B7 0%, #FF00CC 50%);
+    color: white;
+    border: none;
+    border-radius: 16px;
+    width: auto;
+    height: auto;
+    padding: 2% 4% 2% 4%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+}
+
+#boton:hover {
+    background-image: linear-gradient(to right, #FF00CC 50%, #AB15B7 100%);
+}
+
+#aclaracion {
+    margin: 4% 0 0 4%;
+    font-size: 24px;
+}
+
+.obligatorios {
+    color: #FF00CC;
+}
+
+footer {
+    padding: 0 40px 20px 40px;
+}
+
+#pieDePagina {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+#pieDePagina h4 {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    background-image: linear-gradient(to right, #333399 0%, #FF00CC 100%);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 40px;
+}
+
+header div, header ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: #333399;
+}
+
+header .barte:hover {
+    color: #FF00CC;
+}
+
+main {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seccionPrincipal {
+    align-items: center;
+    width: 92%;
+    height: 600px;
+    margin: 100px;
+    border-radius: 16px;
+    background-image: url(../assets/images/Fondo-Barté.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+}
+
+#seccionPrincipal span {
+    margin: 40px;
+    font-size: 80px;
+    font-weight: 600;
+    background: linear-gradient(to top, #333399 0%, #FF00CC 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#seccionInformativa {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+#seccionInformativa div {
+    background-color: #333399;
+    width: 20%;
+    height: auto;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer {
+    padding: 0 40px 20px 40px;
+}
+
+#pieDePagina {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+#pieDePagina h4 {
+    margin-bottom: 20px;
+}

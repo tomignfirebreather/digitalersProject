@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    background-image: linear-gradient(to right, #333399 0%, #FF00CC 100%);
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 40px;
+}
+
+header div, header ul {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+header li {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: #333399;
+}
+
+header .barte:hover {
+    color: #FF00CC;
+}
+
+main {
+    background-color: black;
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4% 0% 4% 0%;
+}
+
+#menuOpciones {
+    background-color: #333399;
+    color: white;
+    width: 10%;
+    height: 800px;
+    border-radius: 16px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#menuOpciones div {
+    margin-top: 40px;
+}
+
+#menuOpciones h3, #menuOpciones li {
+    margin-bottom: 20px;
+}
+
+#seccionProductos {
+    background-image: linear-gradient(to right, #333399 0%, #FF00CC 100%);
+    width: 80%;
+    height: 800px;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.columnaProductos {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imagenProducto, .descripcionProducto {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.descripcionProducto {
+    padding: 40px;
+    width: 80%;
+    height: 300px;
+    justify-content: space-evenly;
+    margin-left: 40px;
+}
+
+.imagenProducto {
+    width: 300px;
+    height: 300px;
+}
+
+.descripcionProducto h2 {
+    color: #333399;
+}
+
+footer {
+    padding: 0 40px 20px 40px;
+}
+
+#pieDePagina {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+#pieDePagina h4 {
+    margin-bottom: 20px;
+}
