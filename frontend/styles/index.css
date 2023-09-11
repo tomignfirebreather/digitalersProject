@@ -9,7 +9,7 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    background-image: linear-gradient(to right, #333399 0%, #FF00CC 100%);
+    background-image: linear-gradient(to right, rgb(6, 11, 39) 20%, rgb(217, 13, 122)100%);
     color: white;
     width: 100%;
     height: auto;
@@ -39,11 +39,11 @@ header a {
 }
 
 header a:hover {
-    color: #333399;
+    color: rgb(6, 11, 39);
 }
 
 header .barte:hover {
-    color: #FF00CC;
+    color: rgb(217, 13, 122);
 }
 
 main {
@@ -58,7 +58,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #333399;
+    background-color: rgb(6, 11, 39);
     border-radius: 32px;
     width: auto;
     height: auto;
@@ -86,7 +86,7 @@ form a {
 }
 
 form a:hover {
-    color: #FF00CC;
+    color: rgb(217, 13, 122);
 }
 
 form .material-symbols-outlined {
@@ -110,7 +110,7 @@ form input {
 }
 
 #boton {
-    background-image: linear-gradient(to right, #AB15B7 0%, #FF00CC 50%);
+    background-image: linear-gradient(to right, #333399 0%, rgb(217, 13, 122) 50%);
     color: white;
     border: none;
     border-radius: 16px;
@@ -123,7 +123,7 @@ form input {
 }
 
 #boton:hover {
-    background-image: linear-gradient(to right, #FF00CC 50%, #AB15B7 100%);
+    background-image: linear-gradient(to right, rgb(217, 13, 122) 50%, #333399 100%);
 }
 
 #aclaracion {
@@ -132,7 +132,7 @@ form input {
 }
 
 .obligatorios {
-    color: #FF00CC;
+    color: rgb(217, 13, 122);
 }
 
 footer {

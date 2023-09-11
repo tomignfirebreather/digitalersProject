@@ -9,7 +9,7 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 200;
-    background-image: linear-gradient(to right, #333399 0%, #FF00CC 100%);
+    background-image: linear-gradient(to right, rgb(6, 11, 39) 20%, rgb(217, 13, 122)100%);
     color: white;
     width: 100%;
     height: auto;
@@ -39,11 +39,11 @@ header a {
 }
 
 header a:hover {
-    color: #333399;
+    color: rgb(6, 11, 39);
 }
 
 header .barte:hover {
-    color: #FF00CC;
+    color: rgb(217, 13, 122);
 }
 
 main {
@@ -58,11 +58,11 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #333399;
+    background-color: rgb(6, 11, 39);
     border-radius: 32px;
     width: auto;
     height: auto;
-    margin: 2% 0 2% 0;
+    margin: 8% 0 8% 0;
 }
 
 form label, form input, form h3, form p {
@@ -86,7 +86,8 @@ form a {
 }
 
 form a:hover {
-    color: #FF00CC;
+    color: rgb(217, 13, 122);
+    /* color: #FF00CC; */
 }
 
 form .material-symbols-outlined {
@@ -109,8 +110,8 @@ form input {
     border: none;
 }
 
-#botonEnviar {
-    background-image: linear-gradient(to right, #AB15B7 0%, #FF00CC 50%);
+#boton {
+    background-image: linear-gradient(to right, #333399 0%, rgb(217, 13, 122) 50%);
     color: white;
     border: none;
     border-radius: 16px;
@@ -122,33 +123,8 @@ form input {
     font-weight: normal;
 }
 
-#botonEnviar:hover {
-    background-image: linear-gradient(to right, #FF00CC 50%, #AB15B7 100%);
-}
-
-#botonBorrar {
-    background-image: linear-gradient(to right, #FF00CC 50%, #AB15B7 100%);
-    color: white;
-    border: none;
-    border-radius: 16px;
-    width: auto;
-    height: auto;
-    padding: 2% 4% 2% 4%;
-    text-align: center;
-    font-size: 32px;
-    font-weight: normal;
-}
-
-#botonBorrar:hover {
-    background-image: linear-gradient(to right, #AB15B7 0%, #FF00CC 50%);
-}
-
-#botonesFormulario {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    height: auto;
-    margin: 4% 0 4% 0;
+#boton:hover {
+    background-image: linear-gradient(to right, rgb(217, 13, 122) 50%, #333399 100%);
 }
 
 #aclaracion {
@@ -157,7 +133,7 @@ form input {
 }
 
 .obligatorios {
-    color: #FF00CC;
+    color: rgb(217, 13, 122);
 }
 
 footer {
